@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+    margin: 0;
+    color: rgb(27, 27, 99);
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c5c5c5
+}
+
+main {
+
+    margin: auto;
+    width: 83.33%;
+
+
+}
+
+header {
+
+    display: block;
+    text-align: justify;
+    width: 52.52%;
+    padding-left: 120px;
+
+
+}
+
+header h1,
+h2 {
+    text-transform: uppercase;
+    font-size: 3.125em;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+
+
+
+}
+
+header h2 {
+    font-size: 2.5em;
+    line-height: 1.75em;
+}
+
+header p {
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+}
+
+header a {
+    display: block;
+    width: 20%;
+    text-align: center;
+    height: 40px;
+    background-color: #9f9f9f;
+    line-height: 2.4em;
+    text-decoration: none;
+    border: 3px solid brown;
+    border-radius: 3px;
+}
+
+header a:hover {
+    background-color: brown;
+    filter: drop-shadow(2.5px 2.5px rgb(27, 27, 99));
+    transition: background-color 1.5s 0.2s ease-in-out, 0.5s 0.2s linear;
+
+}
+
+div {
+    display: block;
+    width: 52.52%;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.5625em;
+    text-decoration: underline;
+}
+
+div p {
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    font-size: 0.9375em;
+}
+
+section {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+[src="imagenes/DSC_0213 (1).jpg"] {
+    width: 30%;
+    margin: auto;
+    border: 3px solid brown;
+
+}
+
+[src="imagenes/DSC_0599 (1).jpg"] {
+    width: 30%;
+    border: 3px solid brown;
+    margin: auto;
+
+}
+
+[src="imagenes/DSC_0213 (1).jpg"]:hover {
+    border: 5px solid rgb(27, 27, 99);
+    filter: grayscale(54%);
+    transition: all 0.5s 0.2s ease-in-out;
+}
+
+
+[src="imagenes/DSC_0599 (1).jpg"]:hover {
+    border: 5px solid rgb(27, 27, 99);
+    filter: grayscale(54%);
+    transition: all 0.5s 0.2s ease-in-out;
+}
+
+[src="imagenes/DSC_0011 (1).jpg"] {
+    width: 50%;
+    margin: auto;
+    border: 3px solid brown;
+}
+
+[src="imagenes/DSC_0011 (1).jpg"]:hover {
+    border: 5px solid rgb(27, 27, 99);
+    filter: grayscale(54%);
+    transition: all 0.5s 0.2s ease-in-out;
+}
+
+[src="imagenes/DSC_0018 (1).jpg"] {
+    width: 30%;
+    margin: auto;
+    border: 3px solid brown;
+
+}
+
+[src="imagenes/DSC_0598 (1).jpg"] {
+    width: 30%;
+    border: 3px solid brown;
+    margin: auto;
+
+}
+
+[src="imagenes/DSC_0018 (1).jpg"]:hover {
+    border: 5px solid rgb(27, 27, 99);
+    filter: grayscale(54%);
+    transition: all 0.5s 0.2s ease-in-out;
+}
+
+
+[src="imagenes/DSC_0598 (1).jpg"]:hover {
+    border: 5px solid rgb(27, 27, 99);
+    filter: grayscale(54%);
+    transition: all 0.5s 0.2s ease-in-out;
+}
+
+@media(max-width:768px) {
+    *{line-height: 50px;}
+    section{ flex-direction: column;}
+    header,div,section{ width: 70%;}
+    header a{ 
+        width: 50%;
+        height: 40px;
+    }
+    [src="imagenes/DSC_0213 (1).jpg"] {
+        width: 100%;
+        margin-bottom: 30px;
+        
+    }
+    [src="imagenes/DSC_0599 (1).jpg"] {
+        width: 100%;
+    }
+    [src="imagenes/DSC_0011 (1).jpg"] {
+        width: 100%;
+    }
+    [src="imagenes/DSC_0018 (1).jpg"] {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    [src="imagenes/DSC_0598 (1).jpg"] {
+        width: 100%;
+    }
+   
+}
